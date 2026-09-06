@@ -1,0 +1,17 @@
+# Ignorar archivos binarios ejecutables de C sin extensión
+*
+!*.*
+!*/
+
+# Ignorar carpetas ocultas o de sistema
+.DS_Store
+.vscode/
+
+# Permitir específicamente extensiones de código y texto
+!*.c
+!*.h
+!*.py
+!*.sql
+!*.md
+!*.txt
+!*.gitignore
